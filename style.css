@@ -1,0 +1,213 @@
+*{
+	background: black;
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding: 0;
+	font-family: 'Nanum Myeongjo', serif;
+}
+#allwrap{
+	width: 1000px;
+	margin: auto;
+	word-break: keep-all;
+}
+#nav{position: fixed;
+	width: 100%;
+	 z-index: 100;}
+#triangle{
+	background: none;
+	position: absolute;
+    top: 30px;
+    left: 0;
+    width: 2%;
+    cursor: pointer;
+    -webkit-animation: rotation 6s infinite linear;
+	}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+
+span{color: #16e321;}
+
+p span{color: #16e321;
+	cursor: pointer;}
+
+h1{font-size: 50px;}
+h3{font-size: 25px; margin-top: 155px;}
+p{font-size: 14px;
+	line-height: 1.55;
+	word-spacing: 0;}
+
+.pclasses{
+	width: 445px;
+	height: auto;
+	margin-top: 45px;
+	margin: 40px auto 0px;
+	text-align: left;
+}
+.midtitle{
+	width: 445px;
+	margin: auto;
+	text-align: left;
+}
+.boxes{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+/*메인*/
+#coinlogo{
+	height: 161px;
+	width: 161px;
+	background:#16e321;
+	margin: auto;
+	position: absolute;
+	top:166px;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+#main{
+	height: 675px;
+	position: relative;
+}
+#maintexttop{
+	text-transform: uppercase;
+	font-size: 20px;
+	top:354px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	letter-spacing: 4px;
+}
+#mainmid{
+	text-transform: uppercase;
+	font-size: 12px;
+	top:393px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	letter-spacing: 2.5px;
+}
+#mainlogo{
+	text-transform: uppercase;
+	font-size: 148px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	letter-spacing: 15px;
+}
+
+#twotext{
+	color: #16e321;
+	text-transform: uppercase;
+	font-size: 148px;
+	position: absolute;
+	top:185px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	letter-spacing: 15px;
+}
+
+
+
+/*인트로*/
+#intro{
+	height: 645px;
+	width: auto;
+	position: relative;
+}
+#introwrap{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.textimg{
+	width: 395px;
+	height: 335px;
+	background:#16e321;
+	margin: auto;
+	margin-top: 45px;
+
+	background-position-x: center;
+   	background-size: contain;
+   	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#bigimg{
+	width: 1000px;
+	height: 1455px;
+	background:#16e321;
+}
+#humanimg{
+	height: 350px;
+	width: 275px;
+	background:#16e321;
+	position: absolute;
+	left: 465px;
+	top: 730px;
+
+}
+
+
+#vediooo{
+	height: 285px;
+	width: 430px;
+	background:#16e321;
+}
+
+
+/*z코비드카드으*/
+#contentcard{
+	border-bottom: 1px solid #16e321;
+	border-top: 1px solid #16e321;
+	height: 610px;
+	position: relative;
+}
+
+
+#sectiontwo{
+	border-top: solid 1px #16e321;
+}
+
+
+
+/*마지막 상징들,사인들 삼삼삼 삼삼*/
+#sectionthree{
+	height: auto;
+}
+#piraimg{
+	height: 374px;
+	width: 316px;
+	background: #16e321;
+	margin:auto;
+	margin-bottom: 200px;
+}
+
+#imgsss{
+	height: 2000px;
+	background: #16e321;
+}
+
+footer{
+	height: 100px;
+	background: black;
+	position: relative;
+}
+
+
+footer #footercopy{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
