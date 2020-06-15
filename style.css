@@ -37,7 +37,7 @@ p span{color: #16e321;
 h1{font-size: 50px;}
 h3{font-size: 25px; margin-top: 155px;}
 p{font-size: 14px;
-	line-height: 1.55;
+	line-height: 1.6;
 	word-spacing: 0;}
 
 .pclasses{
@@ -133,12 +133,13 @@ p{font-size: 14px;
 .textimg{
 	width: 395px;
 	height: 335px;
-	background:#16e321;
+	background:black;
 	margin: auto;
 	margin-top: 45px;
 
 	background-position-x: center;
-   	background-size: contain;
+   	background-size: 30%;
+   	background-position-y:80px;
    	background-repeat: no-repeat;
     background-attachment: fixed;
 }
